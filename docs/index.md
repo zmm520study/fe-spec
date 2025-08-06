@@ -24,7 +24,7 @@
 
 我们引入了多个业界流行的 `Linter` 作为规约文档的配套工具，并根据规约内容定制了对应的规则包，它们包括：
 
-| 规约 | Lint 工具 | NPM包 |
+| 规约 | Lint 工具 | npm包 |
 | -------- | -------- | -------- |
 | JavaScript 编码规范 <br/> TypeScript 编码规范  <br/> Node 编码规范   |  [ESLint](https://eslint.org/)   | [encode-fe-eslint-config](https://www.npmjs.com/package/encode-fe-eslint-config) |
 | CSS 编码规范     |  [stylelint](https://stylelint.io/)  | [encode-fe-stylelint-config](https://www.npmjs.com/package/encode-fe-stylelint-config) |
@@ -39,5 +39,5 @@
 
 ## :email: 联系
 
--   **印客学院官网**: <http://encodestudio.cn>
--   **GitHub**: <https://github.com/encode-studio-fe/fe-spec>
+- **印客学院官网**: <http://encodestudio.cn>
+- **GitHub**: <https://github.com/encode-studio-fe/fe-spec>
