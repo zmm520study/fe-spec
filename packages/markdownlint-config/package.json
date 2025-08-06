@@ -1,6 +1,6 @@
 {
   "name": "markdownlint-config",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "文档规范",
   "keywords": [
     "\"encode\"",
@@ -34,5 +34,5 @@
   "peerDependencies": {
     "markdownlint": "^0.28.1"
   },
-  "gitHead": "4b386017cce7b64bcb11a44007355fd2762900e6"
+  "gitHead": "c3def4b37a6b53c12174796a91718bc92f0c065b"
 }
