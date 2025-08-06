@@ -1,5 +1,5 @@
 {
-  "version": "0.0.7-alpha.0",
+  "version": "0.0.8-alpha.0",
   "npmClient": "pnpm",
   "useWorkspaces": true,
   "command": {
@@ -11,7 +11,7 @@
     "publish": {
       "npmClient": "npm",
       "message": "chore(release): publish %s",
-      "registry": "https://registry.npmjs.org"
+      "registry": "https://registry.npmjs.org/"
     },
     "packages": [
       "packages/*"
