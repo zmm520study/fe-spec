@@ -40,4 +40,4 @@
 ## :email: 联系
 
 
-- **GitHub**: <https://github.com/encode-studio-fe/fe-spec>
+- **GitHub**: <https://zmm520study.github.io/fe-spec/>
