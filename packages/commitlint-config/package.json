@@ -1,6 +1,6 @@
 {
   "name": "commitlint-config",
-  "version": "0.0.6-alpha.0",
+  "version": "0.0.7-alpha.0",
   "description": "Git规范",
   "keywords": [
     "\"encode\"",
@@ -34,5 +34,5 @@
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^4.5.0"
   },
-  "gitHead": "73dc29ccabf980f294ffde15e28df7a79f2e01e5"
+  "gitHead": "903c208f757f2ffd1ff66142371be0bbe2b73c41"
 }
