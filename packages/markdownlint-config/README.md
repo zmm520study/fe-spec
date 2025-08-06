@@ -15,6 +15,6 @@ npm install markdownlint-config markdownlint --save-dev
 
 ```json
 {
-  "extends": "encode-fe-markdownlint-config"
+  "extends": "fe-markdownlint-config"
 }
 ```
