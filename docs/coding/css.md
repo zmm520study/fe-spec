@@ -5,7 +5,7 @@ categories:
 tags:
   - 编码规范
 author:
-  name: 澄怀
+  name: 前端编码规范工程化
   link: https://github.com/encode-studio-fe/fe-spec
 ---
 
