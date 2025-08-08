@@ -19,7 +19,7 @@
     "encode",
     "fe spec"
   ],
-  "author": "chenghuai",
+  "author": "zhoumiaomiao",
   "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^17.6.1",
