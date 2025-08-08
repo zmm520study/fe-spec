@@ -1,5 +1,5 @@
 {
-  "name": "markdownlint-config",
+  "name": "web-markdownlint-config",
   "version": "0.0.2",
   "description": "文档规范",
   "keywords": [
@@ -31,5 +31,5 @@
   "peerDependencies": {
     "markdownlint": "^0.28.1"
   },
-  "gitHead": "1c525edb57273d666c38353fc8b0ff8f5b642d4e"
+  "gitHead": "bacaad912120f1d411054ce6f5cdae59664f61f2"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "commitlint-config",
+  "name": "web-commitlint-config",
   "version": "0.0.2",
   "description": "Git规范",
   "keywords": [
@@ -31,5 +31,5 @@
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^4.5.0"
   },
-  "gitHead": "1c525edb57273d666c38353fc8b0ff8f5b642d4e"
+  "gitHead": "bacaad912120f1d411054ce6f5cdae59664f61f2"
 }

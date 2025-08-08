@@ -9,7 +9,7 @@
 使用时，需要安装 [@commitlint/cli](https://www.npmjs.com/package/@commitlint/cli)：
 
 ```bash
-npm install commitlint-config @commitlint/cli --save-dev
+npm install web-commitlint-config @commitlint/cli --save-dev
 ```
 
 ## 使用

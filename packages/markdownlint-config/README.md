@@ -7,7 +7,7 @@
 需要先行安装 [markdownlint](https://www.npmjs.com/package/markdownlint)：
 
 ```bash
-npm install markdownlint-config markdownlint --save-dev
+npm install web-markdownlint-config markdownlint --save-dev
 ```
 
 ## 使用
