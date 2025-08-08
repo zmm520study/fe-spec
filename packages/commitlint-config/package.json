@@ -1,5 +1,5 @@
 {
-  "name": "commitlint-config",
+  "name": "@miaomiao.zhou/commitlint-config",
   "version": "0.0.20-alpha.0",
   "description": "Git规范",
   "keywords": [
@@ -34,5 +34,5 @@
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^4.5.0"
   },
-  "gitHead": "18f5d6471f71b4188b8cbe0708b37ea9229b4356"
+  "gitHead": "2f4ae8a4074c620d02ca4dc62ddb07a408327cc8"
 }
