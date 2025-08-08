@@ -1,5 +1,6 @@
 {
   "name": "@miaomiao.zhou/markdownlint-config",
+  "private": false,
   "version": "0.0.22-alpha.0",
   "description": "文档规范",
   "keywords": [
@@ -19,6 +20,7 @@
     "lib"
   ],
   "publishConfig": {
+    "access": "public", 
     "registry": "https://registry.npmjs.org/"
   },
   "repository": {
@@ -34,5 +36,5 @@
   "peerDependencies": {
     "markdownlint": "^0.28.1"
   },
-  "gitHead": "32afb34368aa95686e4a515dfc0839ea9483ff52"
+  "gitHead": "1c525edb57273d666c38353fc8b0ff8f5b642d4e"
 }

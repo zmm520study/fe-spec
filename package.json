@@ -1,6 +1,6 @@
 {
   "name": "fe-spec",
-  "private": false,
+  "private": true,
   "description": "前端编码规范工程化",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
