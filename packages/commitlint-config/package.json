@@ -1,6 +1,6 @@
 {
   "name": "commitlint-config",
-  "version": "0.0.13-alpha.0",
+  "version": "0.0.14-alpha.0",
   "description": "Git规范",
   "keywords": [
     "\"encode\"",
