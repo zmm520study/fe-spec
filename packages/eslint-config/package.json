@@ -1,0 +1,34 @@
+{
+  "name": "web-eslit-config",
+  "version": "0.0.3",
+  "description": "JavaScript TypeScript Node Vue React 语法规范lint检查",
+  "keywords": [
+    "javascript",
+    "typescript",
+    "vue",
+    "react",
+    "node",
+    "lint"
+  ],
+  "author": "miaomiao.zhou <miaomiao.zhou@qq.com>",
+  "homepage": "https://github.com/zmm520study/fe-spec#reademe",
+  "license": "ISC",
+  "main": "lib/eslint-config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmm520study/fe-spec.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/eslint-config.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/zmm520study/fe-spec/issues"
+  }
+}

@@ -22,23 +22,23 @@
   "author": "zhoumiaomiao",
   "license": "ISC",
   "devDependencies": {
-    "@commitlint/cli": "^17.6.1",
-    "husky": "^3.1.0",
-    "lerna": "^6.6.2",
-    "pnpm": "^8.6.0",
-    "rimraf": "^3.0.2",
-    "ts-node": "^10.9.1",
-    "tslib": "^2.5.2",
-    "typedoc": "^0.24.7",
-    "typescript": "^5.0.4",
-    "markdownlint": "^0.28.1",
-    "vue-template-compiler": "^2.7.14",
-    "vuepress": "^1.9.9",
-    "vuepress-plugin-one-click-copy": "^1.0.2",
-    "vuepress-plugin-zooming": "^1.1.7"
+    "@commitlint/cli": "^19.8.1",
+    "husky": "^9.1.7",
+    "lerna": "^8.2.3",
+    "markdownlint": "^0.38.0",
+    "pnpm": "^10.15.0",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typedoc": "^0.28.10",
+    "typescript": "^5.9.2",
+    "vue-template-compiler": "^2.7.16",
+    "vuepress": "^1.9.10",
+    "vuepress-plugin-one-click-copy": "^1.0.6",
+    "vuepress-plugin-zooming": "^1.1.8"
   },
   "dependencies": {
-    "conventional-changelog-conventionalcommits": "^4.5.0"
+    "conventional-changelog-conventionalcommits": "^9.1.0"
   },
   "publishConfig": {
     "access": "public",
