@@ -12,7 +12,7 @@
   "no-inline-html": false,
   "no-duplicate-header": false,
   "proper-names": {
-    "names": [
+      "names": [
       "JavaScript",
       "HTML",
       "CSS",
