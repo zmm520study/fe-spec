@@ -1,6 +1,6 @@
 {
   "name": "web-eslint-config",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "JavaScript TypeScript Node Vue React 语法规范lint检查",
   "keywords": [
     "javascript",
@@ -13,7 +13,6 @@
   "author": "miaomiao.zhou <miaomiao.zhou@qq.com>",
   "homepage": "https://github.com/zmm520study/fe-spec#reademe",
   "license": "ISC",
-
   "files": [
     "*",
     ".*"
