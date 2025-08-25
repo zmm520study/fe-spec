@@ -13,6 +13,7 @@
   "author": "miaomiao.zhou <miaomiao.zhou@qq.com>",
   "homepage": "https://github.com/zmm520study/fe-spec#reademe",
   "license": "ISC",
+
   "files": [
     "*",
     ".*"
@@ -53,5 +54,5 @@
     "typescript": "^5.9.2",
     "vue-eslint-parser": "^10.2.0"
   },
-  "gitHead": "9481be9edc13ec0520f7767294f2c5e48a31ea3f"
+  "gitHead": "0196d4e2f5629c34f86726c3d1b91f3d2d092d43"
 }
