@@ -29,7 +29,7 @@
     "url": "https://github.com/zmm520study/fe-spec/issues"
   },
   "dependencies": {
-    "conventional-changelog-conventionalcommits": "^4.5.0"
+    "conventional-changelog-conventionalcommits": "^9.1.0"
   },
-  "gitHead": "bacaad912120f1d411054ce6f5cdae59664f61f2"
+  "gitHead": "cc53d6430c7591e1ec2d8e7a22daecb06d50a3c7"
 }
