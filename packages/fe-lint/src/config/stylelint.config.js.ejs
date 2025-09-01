@@ -1,0 +1,15 @@
+<%_ if (enableStylelint) {  _%>
+    import webStylelintConfig from 'web-stylelint-config';
+    
+    /** @type {import('stylelint').Config} */
+    export default {
+      extends: [
+        'web-stylelint-config'
+      ],
+      ignores: [
+        <%_ stylelintIgnores.forEach((txt, index) => { _%>
+        '<%= txt %>'<%= index < stylelintIgnores.length - 1 ? ',' : '' %>
+        <%_ }) _%>
+      ]
+    };
+    <%_ } _%>

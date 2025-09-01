@@ -1,0 +1,41 @@
+{
+  "name": "web-stylelint-config",
+  "version": "0.0.10",
+  "description": "CSS规范",
+  "main": "index.js",
+  "keywords": [
+    "encode",
+    "style",
+    "lint"
+  ],
+  "scripts": {
+    "test": "jest",
+    "test:node": "node --test __tests__/"
+  },
+  "author": "miaomiao.zhou <miaomiao.zhou@qq.com>",
+  "homepage": "https://github.com/zmm520study/fe-spec#reademe",
+  "license": "ISC",
+  "peerDependencies": {
+    "stylelint": ">=8.3.0",
+    "stylelint-scss": ">=2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "jest-environment-jsdom": "^27.5.1",
+    "postcss-less": "^6.0.0",
+    "postcss-modules": "^6.0.1",
+    "postcss-scss": "^4.0.9",
+    "stylelint": "^16.23.1",
+    "stylelint-scss": "^6.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmm520study/fe-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zmm520study/fe-spec/issues"
+  }
+}

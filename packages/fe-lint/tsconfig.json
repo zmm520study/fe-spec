@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "outDir": "./lib",
+      "lib": ["ES2015", "DOM"],
+      "target": "ES2015",
+      "module":  "ESNext",
+      "removeComments": true,
+      "resolveJsonModule": true,
+      "declaration": true,
+      "downlevelIteration": true,
+      "types": ["node"],
+      "skipLibCheck": true, // 添加这个来跳过第三方库的类型检查
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    },
+    "include": ["src"]
+  }
+  

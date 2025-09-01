@@ -1,0 +1,18 @@
+<%_ if (enablePrettier) { _%>
+    import prettier from 'eslint-config-prettier';
+    <%_ } _%>
+    
+    export default [
+      <%_ if (eslintType === 'index') { _%>
+      (await import('web-config-encode')).default,
+      <%_ } else { _%>
+      (await import(`web-eslint-config/<%= eslintType %>`)).default,
+      <%_ } _%>
+      <%_ if (enablePrettier) { _%>
+      prettier,
+      <%_ } _%>
+      // 可以在这里添加其他配置
+      {
+        ignores: ['**/dist/', '**/node_modules/', '**/build/','**/coverage/','**/es/','**/lib/','**/*.min.js','**/*-min.js', '**/*.bundle.js'],
+      },
+    ];

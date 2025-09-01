@@ -29,7 +29,7 @@
     "url": "https://github.com/zmm520study/fe-spec/issues"
   },
   "peerDependencies": {
-    "markdownlint": "^0.28.1"
+    "markdownlint": "^0.38.0"
   },
   "gitHead": "0b471afb66e65666dd96dbd93e2a0f4128b0fa05"
 }
