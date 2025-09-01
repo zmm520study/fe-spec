@@ -16,9 +16,6 @@
     "prepublishOnly": "pnpm run test",
     "init": "web-fe-lint init"
   },
-  "files": [
-    "lib/"
-  ],
   "engines": {
     "node": ">=18.0.0"
   },
