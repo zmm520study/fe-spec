@@ -1,6 +1,6 @@
 {
   "name": "web-fe-lint",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "前端编码规范工程化标准脚手架",
   "type": "module",
   "bin": {
@@ -85,8 +85,8 @@
     "terminal-link": "^4.0.0",
     "text-table": "^0.2.0",
     "vue-eslint-parser": "^10.2.0",
-    "web-commitlint-config": "^0.0.10",
-    "web-markdownlint-config": "^0.0.10"
+    "web-commitlint-config": "^0.0.11",
+    "web-markdownlint-config": "^0.0.11"
   },
   "author": "miaomiao.zhou <miaomiao.zhou@qq.com>",
   "homepage": "https://github.com/zmm520study/fe-spec#reademe",
