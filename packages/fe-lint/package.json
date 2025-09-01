@@ -98,5 +98,6 @@
   "directories": {
     "lib": "lib",
     "test": "__tests__"
-  }
+  },
+  "gitHead": "ac74172e5bc651dfcdc69b041fa41611f52621e7"
 }

@@ -76,7 +76,7 @@ export async function createESLintInstance(opts: ScanOptions, pkg: PKG, config: 
     const minimalConfig: ESLint.Options = {
       cwd: opts.cwd,
       fix: opts.fix,
-      ignorePatterns: Array.isArray( opts.ignore) ?  opts.ignore :  opts.ignore ? [] : undefined,,
+      ignorePatterns: Array.isArray( opts.ignore) ?  opts.ignore :  opts.ignore ? [] : undefined,
       errorOnUnmatchedPattern: false,
     };
     
