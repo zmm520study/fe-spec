@@ -13,8 +13,8 @@ module.exports = {
       '^.+\\.(ts|tsx)$': 'ts-jest',
     },
     
-    // 配置模块名称映射
-    moduleNameMapping: {
-      '^execa$': require.resolve('execa'),
+   
+    moduleNameMapper: {
+      '^execa$': path.resolve(__dirname, '../node_modules/execa/index.js')
     },
   };
