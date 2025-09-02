@@ -1,6 +1,6 @@
 {
   "name": "web-stylelint-config",
-  "version": "0.0.35",
+  "version": "0.0.36",
   "description": "CSS规范",
   "main": "index.js",
   "keywords": [
