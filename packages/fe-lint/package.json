@@ -73,7 +73,7 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-vue": "^10.4.0",
-    "execa": "6.1.0",
+    "execa": "^9.6.0",
     "fast-glob": "^3.3.3",
     "fs-extra": "^11.3.1",
     "glob": "^11.0.3",
@@ -108,5 +108,5 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "gitHead": "bf95d77c52e14fda7910a32ca96c30c1f675f266"
+  "gitHead": "a087dda5e5dcc4acfe24cbf4a32aaa624ab4341d"
 }
