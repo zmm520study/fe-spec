@@ -23,14 +23,6 @@
     "lint",
     "cli"
   ],
-  "jest": {
-    "transformIgnorePatterns": [
-      "node_modules/(?!(execa)/)"
-    ],
-    "transform": {
-      "^.+\\.(js|jsx|ts|tsx)$": "babel-jest"
-    }
-  },
   "devDependencies": {
     "@babel/preset-env": "^7.28.3",
     "@types/command-exists": "^1.2.3",
@@ -108,5 +100,5 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "gitHead": "a087dda5e5dcc4acfe24cbf4a32aaa624ab4341d"
+  "gitHead": "d98279022435b703359806bc8246e8859eb038a0"
 }
