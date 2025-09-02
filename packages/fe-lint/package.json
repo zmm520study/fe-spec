@@ -32,6 +32,7 @@
     }
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.28.3",
     "@types/command-exists": "^1.2.3",
     "@types/cross-spawn": "^6.0.6",
     "@types/ejs": "^3.1.5",
@@ -43,6 +44,7 @@
     "@types/prettier": "^3.0.0",
     "@types/stylelint": "^14.0.0",
     "@types/text-table": "^0.2.5",
+    "babel-jest": "^27.5.1",
     "copyfiles": "^2.4.1",
     "jest": "^30.1.0",
     "nyc": "^17.1.0",
@@ -106,5 +108,5 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "gitHead": "4ae30978d08005db2a1eeb5f5f623575fbbbdd64"
+  "gitHead": "bf95d77c52e14fda7910a32ca96c30c1f675f266"
 }
