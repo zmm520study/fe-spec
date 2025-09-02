@@ -4,13 +4,26 @@ import markdownLint from 'markdownlint';
 import markdownLintConfig from 'web-markdownlint-config';
 import type { ScanOptions, PKG, Config } from '../../types';
 
-type LintOptions = markdownLint.Options & { fix?: boolean };
+// markdownlint@0.38.0 的配置选项接口
+interface MarkdownlintOptions {
+  config?: any;
+  files?: string[];
+  strings?: Record<string, string>;
+  resultVersion?: number;
+  handleRuleFailures?: boolean;
+  noInlineConfig?: boolean;
+  customRules?: any[];
+  frontMatter?: RegExp;
+}
+
+type LintOptions = MarkdownlintOptions & { fix?: boolean };
 
 /**
  * 获取 Markdownlint 配置
  */
 export function getMarkdownlintConfig(opts: ScanOptions, pkg: PKG, config: Config): LintOptions {
   const { cwd } = opts;
+  
   const lintConfig: LintOptions = {
     fix: Boolean(opts.fix),
     resultVersion: 3,
@@ -24,7 +37,8 @@ export function getMarkdownlintConfig(opts: ScanOptions, pkg: PKG, config: Confi
     if (lintConfigFiles.length === 0) {
       lintConfig.config = markdownLintConfig;
     } else {
-      lintConfig.config = markdownLint.readConfigSync(path.resolve(cwd, lintConfigFiles[0]));
+      const configPath = path.resolve(cwd, lintConfigFiles[0]);
+      lintConfig.config = require(configPath);
     }
   }
 

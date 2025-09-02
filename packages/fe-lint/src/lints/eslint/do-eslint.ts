@@ -25,7 +25,7 @@ export async function doESLint(options: DoESLintOptions) {
   console.log('files', files);
   console.log('eslint', getESLintConfig(options, options.pkg, options.config));
 
-  const eslint = new ESLint(getESLintConfig(options, options.pkg, options.config));
+  const eslint = new ESLint(await getESLintConfig(options, options.pkg, options.config));
   const reports = await eslint.lintFiles(files);
   if (options.fix) {
     await ESLint.outputFixes(reports);

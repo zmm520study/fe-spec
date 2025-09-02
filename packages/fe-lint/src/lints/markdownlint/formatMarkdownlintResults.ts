@@ -1,11 +1,19 @@
 import markdownlint from 'markdownlint';
 import type { ScanResult } from '../../types';
 
-/**
- * 格式化 markdownlint 输出结果
- */
+// markdownlint v0.38.0 的正确类型
+type MarkdownLintResults = Record<string, Array<{
+  lineNumber: number;
+  ruleNames: string[];
+  ruleDescription: string;
+  ruleInformation?: string;
+  errorRange?: [number, number];
+  fixInfo?: any;
+}>>;
+
+
 export function formatMarkdownlintResults(
-  results: markdownlint.LintResults,
+  results: MarkdownLintResults,
   quiet: boolean,
 ): ScanResult[] {
   const parsedResults = [];

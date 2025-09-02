@@ -1,6 +1,7 @@
 import fg from 'fast-glob';
 import { readFile, writeFile } from 'fs-extra';
-import markdownlint, { LintError } from 'markdownlint';
+// 使用默认导入方式
+import markdownlintModule from 'markdownlint';
 import markdownlintRuleHelpers from 'markdownlint-rule-helpers';
 import { extname, join } from 'path';
 import { Config, PKG, ScanOptions } from '../../types';
@@ -27,11 +28,14 @@ export async function doMarkdownlint(options: DoMarkdownlintOptions) {
       ignore: MARKDOWN_LINT_IGNORE_PATTERN,
     });
   }
-  const results = await markdownlint.promises.markdownlint({
+  // 如果上面的方式不行，尝试这样
+const markdownlint = (markdownlintModule as any).default;
+  // 使用正确的异步调用方式
+  const results = await markdownlint.markdownlint({
     ...getMarkdownlintConfig(options, options.pkg, options.config),
     files,
   });
-  // 修复
+  
   if (options.fix) {
     await Promise.all(
       Object.keys(results).map((filename) => formatMarkdownFile(filename, results[filename])),
@@ -43,15 +47,15 @@ export async function doMarkdownlint(options: DoMarkdownlintOptions) {
   return formatMarkdownlintResults(results, options.quiet);
 }
 
-async function formatMarkdownFile(filename: string, errors: LintError[]) {
-  const fixes = errors?.filter((error) => error.fixInfo);
+async function formatMarkdownFile(filename: string, errors: any[]) {
+  const fixes = errors?.filter((error: any) => error.fixInfo);
 
   if (fixes?.length > 0) {
     const originalText = await readFile(filename, 'utf8');
     const fixedText = markdownlintRuleHelpers.applyFixes(originalText, fixes);
     if (originalText !== fixedText) {
       await writeFile(filename, fixedText, 'utf8');
-      return errors.filter((error) => !error.fixInfo);
+      return errors.filter((error: any) => !error.fixInfo);
     }
   }
   return errors;
