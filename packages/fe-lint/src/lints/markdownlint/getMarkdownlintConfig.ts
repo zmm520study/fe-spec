@@ -1,6 +1,5 @@
 import path from 'path';
 import glob from 'glob';
-import markdownLint from 'markdownlint';
 import markdownLintConfig from 'web-markdownlint-config';
 import type { ScanOptions, PKG, Config } from '../../types';
 

@@ -1,7 +1,7 @@
 import fg from 'fast-glob';
 import { readFile, writeFile } from 'fs-extra';
 // 使用默认导入方式
-import markdownlintModule from 'markdownlint';
+import * as markdownlintModule from 'markdownlint';
 import markdownlintRuleHelpers from 'markdownlint-rule-helpers';
 import { extname, join } from 'path';
 import { Config, PKG, ScanOptions } from '../../types';

@@ -1,4 +1,3 @@
-import markdownlint from 'markdownlint';
 import type { ScanResult } from '../../types';
 
 // markdownlint v0.38.0 的正确类型
