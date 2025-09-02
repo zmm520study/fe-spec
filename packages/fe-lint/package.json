@@ -13,8 +13,7 @@
     "copyfiles": "copyfiles -a -u 1 \"src/config/**\" lib",
     "test": "pnpm run build && jest",
     "coverage": "nyc jest --silent --forceExit",
-    "prepublishOnly": "pnpm run test",
-    "init": "web-fe-lint init"
+    "prepublishOnly": "pnpm run test"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -24,6 +23,14 @@
     "lint",
     "cli"
   ],
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!(execa)/)"
+    ],
+    "transform": {
+      "^.+\\.(js|jsx|ts|tsx)$": "babel-jest"
+    }
+  },
   "devDependencies": {
     "@types/command-exists": "^1.2.3",
     "@types/cross-spawn": "^6.0.6",
@@ -99,5 +106,5 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "gitHead": "06b7c76fe0fd9a8fd70014e1a1ca9439baf26d54"
+  "gitHead": "851c3503fa0a9a981249ba5d9cad48f295bbd9a3"
 }
