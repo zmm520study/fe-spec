@@ -1,6 +1,6 @@
 {
   "name": "web-eslint-config",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "JavaScript TypeScript Node Vue React 语法规范lint检查",
   "keywords": [
     "javascript",
