@@ -71,7 +71,7 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-vue": "^10.4.0",
-    "execa": "^9.6.0",
+    "execa": "6.1.0",
     "fast-glob": "^3.3.3",
     "fs-extra": "^11.3.1",
     "glob": "^11.0.3",
@@ -89,8 +89,8 @@
     "terminal-link": "^4.0.0",
     "text-table": "^0.2.0",
     "vue-eslint-parser": "^10.2.0",
-    "web-commitlint-config": "^0.0.18",
-    "web-markdownlint-config": "^0.0.18"
+    "web-commitlint-config": "^0.0.10",
+    "web-markdownlint-config": "^0.0.10"
   },
   "author": "miaomiao.zhou <miaomiao.zhou@qq.com>",
   "homepage": "https://github.com/zmm520study/fe-spec#reademe",
@@ -106,5 +106,5 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "gitHead": "f66a53490cd75b1af376b79a15cb3af26e0a6c06"
+  "gitHead": "4ae30978d08005db2a1eeb5f5f623575fbbbdd64"
 }
