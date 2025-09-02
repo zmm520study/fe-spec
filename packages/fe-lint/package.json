@@ -11,9 +11,9 @@
     "dev": "pnpm run copyfiles && tsc -w",
     "build": "rm -rf lib && pnpm run copyfiles && tsc",
     "copyfiles": "copyfiles -a -u 1 \"src/config/**\" lib",
-    "test": "pnpm run build && jest",
+    "test": "jest",
     "coverage": "nyc jest --silent --forceExit",
-    "prepublishOnly": "pnpm run test"
+    "prepublishOnly": "pnpm run build && pnpm test"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -102,5 +102,5 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "gitHead": "9fcec1bd8cc303b4fe281ddb1968f3c8b26dc3ad"
+  "gitHead": "42e365b4cfd37f1cec6bd8accf35ef2cb6fb053e"
 }

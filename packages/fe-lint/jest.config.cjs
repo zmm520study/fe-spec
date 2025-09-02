@@ -16,6 +16,6 @@ module.exports = {
     
    
     moduleNameMapper: {
-      '^execa$': path.resolve(__dirname, '../node_modules/execa/index.js')
+      '^execa$': path.resolve(__dirname, './node_modules/execa/index.js')
     },
   };
